@@ -28,10 +28,10 @@ import { favicon } from "./gulp/tasks/copy.js";
 import { images } from "./gulp/tasks/images.js";
 import { files } from "./gulp/tasks/copy.js";
 import { server } from "./gulp/tasks/server.js";
-import { otfToTtf, ttfToWoff, fontsStyle } from "./gulp/tasks/fonts.js";
 import { svgIcons } from "./gulp/tasks/svgSprite.js";
 import { zip } from "./gulp/tasks/zip.js";
 import { ftp } from "./gulp/tasks/ftp.js";
+import { otfToTtf, ttfToWoff, fontsStyle } from "./gulp/tasks/fonts.js";
 
 // Наблюдатель за изменениями в файлах и папках
 function watcher(){

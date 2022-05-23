@@ -12,8 +12,9 @@ export const path = {
         images: `${buildFolder}/img/`,
         svgSprite: `${srcFolder}/img/icons`,
         fonts: `${buildFolder}/fonts/`,
-        favicon: `${buildFolder}/`,
         files: `${buildFolder}/uploads/`,
+        fonts: `${buildFolder}/fonts/`,
+        favicon: `${buildFolder}/`,
     },
     src: {
         html: `${srcFolder}/*.html`,
