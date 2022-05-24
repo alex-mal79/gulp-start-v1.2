@@ -13,6 +13,8 @@ $md4: 480px;
 // Переменные CSS
 :root {
     // base
+    --max-widthContainer: #{$maxWidthContainer};
+    --container-offset: #{$containerOffset};
     --font-family: "Montserrat", sans-serif;
 
     // colors
