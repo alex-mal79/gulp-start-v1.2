@@ -33,10 +33,10 @@
 //      Ограничивающий контейнер
 //=======================================================
 .container {
-    max-width: $maxWidthContainer;
+    max-width: var(--max-widthContainer);
     width: 100%;
     margin: 0 auto;
-    padding: 0 $containerOffset;
+    padding: 0 var(--container-offset);
 }
 //=======================================================
 //      Сброс стилей кнопки
