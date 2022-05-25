@@ -1,5 +1,5 @@
 import fs, { appendFile } from 'fs';
-import fonter from 'gulp-fonter';
+import fonter from 'gulp-fonter-fix';
 import ttf2woff2 from 'gulp-ttf2woff2';
 
 export const otfToTtf = () => {
@@ -30,6 +30,8 @@ export const ttfToWoff = () => {
     .pipe(app.gulp.dest(`${app.path.build.fonts}`))
     .pipe(app.gulp.src(`${app.path.srcFolder}/fonts/*.ttf`))
     .pipe(ttf2woff2())
+    .pipe(app.gulp.dest(`${app.path.build.fonts}`))
+    .pipe(app.gulp.src(`${app.path.srcFolder}/fonts/*.{woff,woff2}`))
     .pipe(app.gulp.dest(`${app.path.build.fonts}`));
 }
 
