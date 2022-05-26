@@ -1,18 +1,23 @@
 // =================================================
 // Меню бургер
 // =================================================
-import { burger } from "./functions/burger.js";
-burger();
+// import { burger } from "./functions/burger.js";
+// burger();
+// =================================================
+//Меню DropDown
+// =================================================
+// import { dropDown } from "./functions/dropDown.js";
+// dropDown();
 //==================================================
 // Шапка при скролле
 // =================================================
-import { headerScroll } from "./functions/headerScroll.js";
-headerScroll();
+// import { headerScroll } from "./functions/headerScroll.js";
+// headerScroll();
 // =================================================
 // Проверка поддержки Webp браузером
 // =================================================
-import { isWebp } from "./functions/isWebp.js";
-isWebp();
+// import { isWebp } from "./functions/isWebp.js";
+// isWebp();
 // =================================================
 // Проверка поддержки isAvif браузером
 // =================================================
